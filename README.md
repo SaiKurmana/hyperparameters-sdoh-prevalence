@@ -13,8 +13,8 @@ diffable, importable, and testable. No `.ipynb` anywhere.
 Most hyperparameter tutorials demonstrate regularization on data where it does
 nothing visible, and stop before the question of whether the model means anything.
 This one uses a dataset where the statistical problem is real: county-level social
-need measures — food insecurity, housing insecurity, lack of transportation, social
-isolation — are strongly correlated with each other, and an unpenalized regression
+need measures — food insecurity, housing insecurity, lack of transportation,
+loneliness — are strongly correlated with each other, and an unpenalized regression
 handles that badly.
 
 It also shows the result you are supposed to get and rarely see written down: with
