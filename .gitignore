@@ -1,0 +1,40 @@
+# Data -- never commit downloaded or client datasets.
+# Keep the folders (via .gitkeep) but nothing inside them. Git does not descend
+# into an excluded directory, so each level is unexcluded explicitly.
+data/*
+!data/raw/
+!data/processed/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated figures (regenerate by running the scripts)
+figures/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+# .vscode is committed on purpose -- it is part of the setup
