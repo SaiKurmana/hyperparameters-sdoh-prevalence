@@ -60,7 +60,7 @@ SDOH_MEASURES: tuple[str, ...] = (
     "HOUSINSECU",   # housing insecurity, past 12 months
     "SHUTUTILITY",  # utility services shutoff threat, past 12 months
     "LACKTRPT",     # lack of reliable transportation, past 12 months
-    "ISOLATION",    # feelings of loneliness
+    "LONELINESS",   # loneliness among adults
     "EMOTIONSPT",   # lack of social and emotional support
     "ACCESS2",      # no health insurance, adults 18-64
 )
@@ -73,7 +73,7 @@ MEASURE_LABELS: dict[str, str] = {
     "HOUSINSECU": "Housing insecurity",
     "SHUTUTILITY": "Utility shutoff threat",
     "LACKTRPT": "No reliable transportation",
-    "ISOLATION": "Loneliness",
+    "LONELINESS": "Loneliness",
     "EMOTIONSPT": "No social/emotional support",
     "ACCESS2": "Uninsured (18-64)",
 }
